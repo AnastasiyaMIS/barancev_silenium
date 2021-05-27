@@ -3,12 +3,12 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from group import Group
 
-class Test222222():
-  def setup_method(self, method):
+class TestAddGroup():
+  def setup_method(self):
     self.driver = webdriver.Firefox(executable_path='./geckodriver-v0.29.1-win64/geckodriver.exe')
     self.vars = {}
   
-  def teardown_method(self, method):
+  def teardown_method(self):
     self.driver.quit()
   
   def test_add_group(self):
