@@ -1,1 +1,0 @@
-# barancev_silenium
