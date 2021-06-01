@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 
 class Application:
     def __init__(self):
-        self.driver = webdriver.Firefox(executable_path='./geckodriver-v0.29.1-win64/geckodriver.exe')
+        self.driver = webdriver.Firefox(executable_path='../geckodriver-v0.29.1-win64/geckodriver.exe')
         self.vars = {}
 
     def logout(self):
